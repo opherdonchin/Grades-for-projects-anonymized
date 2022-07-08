@@ -1,3 +1,6 @@
+# Don't copy the samples files (if you want them, send separately)
+samples/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
