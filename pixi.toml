@@ -1,0 +1,20 @@
+[project]
+name = "grades-project"
+channels = ["conda-forge"]
+platforms = ["win-64"]  # or "linux-64" or ["win-64", "linux-64"] if cross-platform
+
+[dependencies]
+python = ">=3.10,<3.13"
+chardet = "*"
+numpy = "*"
+pandas = "*"
+pymc = "*"
+arviz = "*"
+matplotlib = "*"
+ipykernel = "*"
+pip = "*"
+xlsxwriter = "*"
+openpyxl = "*"
+
+[tasks]
+notebook = "jupyter notebook"
